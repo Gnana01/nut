@@ -1,0 +1,9 @@
+/mygit_project
+    /mygit               # package for core logic
+        __init__.py
+        commands.py
+        repository.py
+        objects.py
+    main.py               # entry CLI
+    README.md
+
