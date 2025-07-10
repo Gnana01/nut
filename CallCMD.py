@@ -1,5 +1,5 @@
 from abc import ABC,abstractmethod
-from Repository import Repository
+from repository import Repository
 
 class Call_CMD():
     @abstractmethod

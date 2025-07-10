@@ -11,8 +11,6 @@ class Repository():
         os.mkdir(".nut")
 
 
-g = Repository()
-g.pri
         
 
 

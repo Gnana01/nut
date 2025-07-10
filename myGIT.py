@@ -1,12 +1,23 @@
 #import callCMD
-from Repository import Repository
+import typer
+from repository import Repository
+from callCMD import Call_CMD
 
 class Nut():
     def __init__(self):
-        self.nut = 
+        self.obj = Repository()
+        return self.obj.printDir
 
 def main():
-    nut = Repository()
-    pwd.printDir()
+    nut = Nut()
+    print(nut.obj)
+
+
+
 if __name__ == "__main__":
     main()
+    
+
+
+
+
